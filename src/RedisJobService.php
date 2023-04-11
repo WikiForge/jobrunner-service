@@ -97,8 +97,6 @@ abstract class RedisJobService {
 	protected $conns = [];
 	/** @var array Map of (server => timestamp) */
 	protected $downSrvs = [];
-	/** @var mixed */
-	private $wrapper;
 
 	/**
 	 * @param array $args
