@@ -15,7 +15,7 @@ abstract class RedisJobService {
 	/**
 	 * An IPv6 range is an IP address and a prefix (d0 to d128)
 	 */
-	private RE_IPV6_PREFIX = '(12[0-8]|1[01][0-9]|[1-9][0-9]|[0-9])';
+	private const RE_IPV6_PREFIX = '(12[0-8]|1[01][0-9]|[1-9][0-9]|[0-9])';
 
 	private const RE_IPV6_ADD =
 		'(?:' .
