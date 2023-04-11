@@ -18,4 +18,4 @@ Example:
 redisJobRunnerService --config-file=/etc/jobrunner/jobrunner.json --verbose
 
 LICENSE
-GPLv2.0, see COPYING at the root of the repository for the complete license.
+GPLv3.0, see LICENSE.md at the root of the repository for the complete license.
